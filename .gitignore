@@ -1,0 +1,8 @@
+node_modules/
+build/asset-manifest.json
+build/manifest.json
+build/robots.txt
+build/static/js/main.f8eaaaea.js
+build/static/js/main.f8eaaaea.js.LICENSE.txt
+package-lock.json
+package.json
