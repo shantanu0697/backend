@@ -5,12 +5,12 @@ const express = require("express");
 const server = express();
 const mongoose = require("mongoose");
 const path = require("path");
-const evv = require('dotenv').config();
+const env =require('dotenv').config();
 const { Schema } = mongoose;
 // const url = ''
 main().catch((err) => console.log(err));
 async function main() {
-  await mongoose.connect( process.env.MONGO_URL  )
+  await mongoose.connect(process.env.MONGO_URL)
   console.log("db connected");
 }
 
